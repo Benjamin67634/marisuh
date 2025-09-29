@@ -68,5 +68,5 @@ def factorial(v1):
 
 if __name__  == "__main__":
     app.run(debug=True)
-    
-#cada ruta tiene su funcion
+
+si hay cosas raras es que se me colaron comentarios de su clase
