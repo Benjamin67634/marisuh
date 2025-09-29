@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hola_mundo():
+def home():
     return '''
               <h1>Bienvenidos a esta calculadora virtual hecha en flask!</h1>
               <hp>1.- para sumar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/sumar/[algun valor]/[algun valor]</p>
