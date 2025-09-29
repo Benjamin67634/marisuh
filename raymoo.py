@@ -2,10 +2,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/') #nombre de la ruta, inicio
-def hola_mundo(): #funcionalidad, funcion
+@app.route('/')
+def hola_mundo():
     return '''
-              <h1> Hola mundo desde flask</h1>
+              <h1>Bienvenidos a esta calculadora virtual hecha en flask!</h1>
               <hp>1.- para sumar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/sumar/[algun valor]/[algun valor]</p>
               <hp>1.- para restar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/restar/[algun valor]/[algun valor]</p>
               <hp>1.- para multiplicar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/mult/[algun valor]/[algun valor]</p>
