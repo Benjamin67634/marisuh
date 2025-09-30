@@ -7,12 +7,12 @@ def home():
     return '''
               <h1>Bienvenidos a esta calculadora virtual hecha en flask!</h1>
               <hp>1.- para sumar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/sumar/[algun valor]/[algun valor]</p>
-              <hp>1.- para restar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/restar/[algun valor]/[algun valor]</p>
-              <hp>1.- para multiplicar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/mult/[algun valor]/[algun valor]</p>
-              <hp>1.- para dividir teclea la siguiente ruta en el navegador http://127.0.0.1:5000/divi/[algun valor]/[algun valor]</p>
-              <hp>1.- para sacar el valor maximo de dos numeros teclea la siguiente ruta en el navegador http://127.0.0.1:5000/max/[algun valor]/[algun valor]</p>
-              <hp>1.- para sacar el valor minimo de dos numeros teclea la siguiente ruta en el navegador http://127.0.0.1:5000/min/[algun valor]/[algun valor]</p>
-              <hp>1.- para sacar el factorial de un numero teclea en el navegador http://127.0.0.1:5000/factorial/[algun valor]</p>
+              <hp>2.- para restar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/restar/[algun valor]/[algun valor]</p>
+              <hp>3.- para multiplicar teclea la siguiente ruta en el navegador http://127.0.0.1:5000/mult/[algun valor]/[algun valor]</p>
+              <hp>4.- para dividir teclea la siguiente ruta en el navegador http://127.0.0.1:5000/divi/[algun valor]/[algun valor]</p>
+              <hp>5.- para sacar el valor maximo de dos numeros teclea la siguiente ruta en el navegador http://127.0.0.1:5000/max/[algun valor]/[algun valor]</p>
+              <hp>6.- para sacar el valor minimo de dos numeros teclea la siguiente ruta en el navegador http://127.0.0.1:5000/min/[algun valor]/[algun valor]</p>
+              <hp>7.- para sacar el factorial de un numero teclea en el navegador http://127.0.0.1:5000/factorial/[algun valor]</p>
 
               <footer> Creado por daniel benjamin ortega Flores 5-D </footer>
               '''
